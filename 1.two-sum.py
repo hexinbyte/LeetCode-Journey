@@ -10,29 +10,38 @@
 
 # @lcpr-template-end
 # @lc code=start
-
-# 使用哈希表解法，时间复杂度O(n)，空间复杂度O(n)
-# class Solution:
-#     def twoSum(self, nums: List[int], target: int) -> List[int]:
-#         hashmap  = {}
-#         for i,n in enumerate(nums):
-#             comple = target - n
-#             if comple in map:
-#                 return [map[comple], i]
-#             map[n] = i
-
-
-# 暴力解法，时间复杂度O(n^2)，空间复杂度O(1)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i,v1 in enumerate(nums):
-            for j in range(i+1, len(nums)):
-                v2 = nums[j]
-                if v1 + v2 == target:
-                    return [i,j]
-                
-        
-        
+        """
+        方法一：哈希表法（最优解）
+        - 思路：
+          遍历数组的同时，在哈希表中查找是否存在 target - n（目标补数）。
+          若存在，则直接返回其对应下标与当前下标；
+          若不存在，则将当前元素与其下标存入哈希表。
+        - 时间复杂度: O(n) —— 只需单次遍历，哈希表平均查找/存取为 O(1)
+        - 空间复杂度: O(n) —— 最多存储 n 个键值对
+        """
+        hashmap = {}
+        for i, n in enumerate(nums):
+            complement = target - n
+            if complement in hashmap:
+                return [hashmap[complement], i]
+            hashmap[n] = i
+        return []
+
+    # ================= 备选解法（供复习参考） =================
+    # 方法二：暴力枚举
+    # - 思路：双重循环遍历所有数对，内层循环从 i+1 开始避免重复使用同一元素
+    # - 时间复杂度: O(n^2)
+    # - 空间复杂度: O(1)
+    #
+    # def twoSum_brute_force(self, nums: List[int], target: int) -> List[int]:
+    #     n = len(nums)
+    #     for i in range(n):
+    #         for j in range(i + 1, n):
+    #             if nums[i] + nums[j] == target:
+    #                 return [i, j]
+    #     return []
 # @lc code=end
 
 
