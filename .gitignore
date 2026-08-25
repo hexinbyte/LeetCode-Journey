@@ -1,0 +1,3 @@
+# Git ignore for LeetCode-Journey
+# Ignore Copilot session / local workspace data
+.lcpr_data/
