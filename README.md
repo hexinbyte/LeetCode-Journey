@@ -12,6 +12,7 @@
 | 题号 | 题目名称 | 难度 | 核心解法 / 算法标签 | 时间复杂度 | 空间复杂度 | 题解代码 |
 | :---: | :--- | :---: | :--- | :---: | :---: | :---: |
 | 0001 | [两数之和](https://leetcode.cn/problems/two-sum/) | 🟢 简单 | 哈希表 (Hash Map) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [1.two-sum.py](./1.two-sum.py) |
+| 0002 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | 🟡 中等 | 模拟 / 链表 / 剪枝 | $\mathcal{O}(\max(m, n))$ | $\mathcal{O}(\max(m, n))$ | [2.add-two-numbers.py](./2.add-two-numbers.py) |
 
 ---
 
