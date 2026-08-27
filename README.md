@@ -13,6 +13,7 @@
 | :---: | :--- | :---: | :--- | :---: | :---: | :---: |
 | 0001 | [两数之和](https://leetcode.cn/problems/two-sum/) | 🟢 简单 | 哈希表 (Hash Map) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [1.two-sum.py](./1.two-sum.py) |
 | 0002 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | 🟡 中等 | 模拟 / 链表 / 剪枝 | $\mathcal{O}(\max(m, n))$ | $\mathcal{O}(\max(m, n))$ | [2.add-two-numbers.py](./2.add-two-numbers.py) |
+| 0003 | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | 🟡 中等 | 滑动窗口 / 哈希表 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(|\Sigma|)$ | [3.longest-substring-without-repeating-characters.py](./3.longest-substring-without-repeating-characters.py) |
 
 ---
 
@@ -20,8 +21,10 @@
 
 ```text
 LeetCode-Journey/
-├── 1.two-sum.py       # [题号].[题目英文名].py
-├── README.md          # 刷题索引与记录
+├── 1.two-sum.py                                            # [题号].[题目英文名].py
+├── 2.add-two-numbers.py
+├── 3.longest-substring-without-repeating-characters.py
+├── README.md                                               # 刷题索引与记录
 └── ...
 ```
 
