@@ -16,6 +16,7 @@
 | 0003 | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | 🟡 中等 | 滑动窗口 / 哈希表 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(\vert\Sigma\vert)$ | [3.longest-substring-without-repeating-characters.py](./3.longest-substring-without-repeating-characters.py) |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | 🔴 困难 | 二分查找 / 寻找第 k 小元素 / 双指针 | $\mathcal{O}(\log(m + n))$ | $\mathcal{O}(1)$ | [4.median-of-two-sorted-arrays.py](./4.median-of-two-sorted-arrays.py) |
 | 0005 | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/) | 🟡 中等 | 中心扩散法 / 动态规划 / 双指针 | $\mathcal{O}(n^2)$ | $\mathcal{O}(1)$ | [5.longest-palindromic-substring.py](./5.longest-palindromic-substring.py) |
+| 0011 | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | 🟡 中等 | 对向双指针 / 贪心 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [11.container-with-most-water.py](./11.container-with-most-water.py) |
 
 ---
 
