@@ -19,6 +19,7 @@
 | 0011 | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | 🟡 中等 | 对向双指针 / 贪心 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [11.container-with-most-water.py](./11.container-with-most-water.py) |
 | 0015 | [三数之和](https://leetcode.cn/problems/3sum/) | 🟡 中等 | 排序 / 对向双指针 / 哈希分类 | $\mathcal{O}(n^2)$ | $\mathcal{O}(1)$ | [15.3-sum.py](./15.3-sum.py) |
 | 0017 | [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) | 🟡 中等 | 回溯 (DFS) / 广度优先搜索 (BFS) | $\mathcal{O}(3^m \times 4^n)$ | $\mathcal{O}(3^m \times 4^n)$ | [17.letter-combinations-of-a-phone-number.py](./17.letter-combinations-of-a-phone-number.py) |
+| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | 🟡 中等 | 快慢双指针 / 虚拟头节点 (Dummy) / 链表 | $\mathcal{O}(L)$ | $\mathcal{O}(1)$ | [19.remove-nth-node-from-end-of-list.py](./19.remove-nth-node-from-end-of-list.py) |
 
 ---
 
