@@ -8,6 +8,7 @@
 
 # @lcpr-template-start
 
+
 # @lcpr-template-end
 # @lc code=start
 class Solution:
@@ -26,27 +27,28 @@ class Solution:
           - 时间复杂度: O(4^n / sqrt(n)) —— 结果数量为第 n 个卡特兰数，每个组合生成耗时 O(n)
           - 空间复杂度: O(n) —— 递归调用栈深度最大为 2n
         """
-        def dfs(s,left,right):
+
+        def dfs(s: str, left: int, right: int):
             # 终止条件：所有右括号已放满，当前字符串构建完成
             if right == n:
                 ans.append(s)
             elif left == right:
                 # 左右相等时只能放左括号
-                dfs(s+'(',left+1,right)
+                dfs(s + "(", left + 1, right)
             else:
                 # 还有左括号配额时可放左括号
                 if left < n:
-                    dfs(s+'(',left+1,right)
+                    dfs(s + "(", left + 1, right)
                 # 可放右括号进行匹配
-                if right< n:
-                    dfs(s+')',left,right+1)
+                if right < n:
+                    dfs(s + ")", left, right + 1)
 
         ans = []
-        dfs("",0,0)
+        dfs("", 0, 0)
         return ans
-        
-# @lc code=end
 
+
+# @lc code=end
 
 
 #
@@ -59,4 +61,3 @@ class Solution:
 # @lcpr case=end
 
 #
-
