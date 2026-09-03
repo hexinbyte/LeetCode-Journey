@@ -22,6 +22,7 @@
 | 0019 | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | 🟡 中等 | 快慢双指针 / 虚拟头节点 (Dummy) / 链表 | $\mathcal{O}(L)$ | $\mathcal{O}(1)$ | [19.remove-nth-node-from-end-of-list.py](./19.remove-nth-node-from-end-of-list.py) |
 | 0020 | [有效的括号](https://leetcode.cn/problems/valid-parentheses/) | 🟢 简单 | 栈 (Stack) / 哈希表 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [20.valid-parentheses.py](./20.valid-parentheses.py) |
 | 0021 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | 🟢 简单 | 双指针 / 链表 / 迭代 | $\mathcal{O}(m + n)$ | $\mathcal{O}(1)$ | [21.merge-two-sorted-lists.py](./21.merge-two-sorted-lists.py) |
+| 0022 | [括号生成](https://leetcode.cn/problems/generate-parentheses/) | 🟡 中等 | 回溯 (DFS) / 剪枝 / 动态规划 | $\mathcal{O}(\frac{4^n}{\sqrt{n}})$ | $\mathcal{O}(n)$ | [22.generate-parentheses.py](./22.generate-parentheses.py) |
 
 ---
 
