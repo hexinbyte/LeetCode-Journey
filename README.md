@@ -24,6 +24,7 @@
 | 0021 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | 🟢 简单 | 双指针 / 链表 / 迭代 | $\mathcal{O}(m + n)$ | $\mathcal{O}(1)$ | [21.merge-two-sorted-lists.py](./21.merge-two-sorted-lists.py) |
 | 0022 | [括号生成](https://leetcode.cn/problems/generate-parentheses/) | 🟡 中等 | 回溯 (DFS) / 剪枝 / 动态规划 | $\mathcal{O}(\frac{4^n}{\sqrt{n}})$ | $\mathcal{O}(n)$ | [22.generate-parentheses.py](./22.generate-parentheses.py) |
 | 0042 | [接雨水](https://leetcode.cn/problems/trapping-rain-water/) | 🔴 困难 | 单调栈 / 双向扫描 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [42.trapping-rain-water.py](./42.trapping-rain-water.py) |
+| 0206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/) | 🟢 简单 | 递归 / 双指针 / 链表 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [206.reverse-linked-list.py](./206.reverse-linked-list.py) |
 | 0226 | [翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) | 🟢 简单 | 二叉树 / 深度优先搜索 (DFS) / 广度优先搜索 (BFS) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [226.invert-binary-tree.py](./226.invert-binary-tree.py) |
 
 ---
