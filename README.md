@@ -4,9 +4,9 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-16%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
+[![Total](https://img.shields.io/badge/累计刷题-17%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
 [![Easy](https://img.shields.io/badge/🟢%20简单-6-2ecc71?style=flat-square)](https://leetcode.cn/)
-[![Medium](https://img.shields.io/badge/🟡%20中等-8-f39c12?style=flat-square)](https://leetcode.cn/)
+[![Medium](https://img.shields.io/badge/🟡%20中等-9-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-2-e74c3c?style=flat-square)](https://leetcode.cn/)
 
 ---
@@ -16,9 +16,9 @@
 ```mermaid
 xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
-    x-axis ["08-25", "08-26", "08-27", "08-28", "08-31", "09-01", "09-02", "09-03", "09-06", "09-07"]
+    x-axis ["08-25", "08-26", "08-27", "08-28", "08-31", "09-01", "09-02", "09-03", "09-06", "09-07", "09-08"]
     y-axis "累计题量 (题)" 0 --> 20
-    line [1, 2, 4, 5, 6, 8, 10, 13, 14, 16]
+    line [1, 2, 4, 5, 6, 8, 10, 13, 14, 16, 17]
 ```
 
 ---
@@ -43,6 +43,7 @@ xychart-beta
 | 0206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/) | 🟢 简单 | 递归 / 双指针 / 链表 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [206.reverse-linked-list.py](./206.reverse-linked-list.py) |
 | 0226 | [翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) | 🟢 简单 | 二叉树 / 深度优先搜索 (DFS) / 广度优先搜索 (BFS) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [226.invert-binary-tree.py](./226.invert-binary-tree.py) |
 | 0234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | 🟢 简单 | 快慢指针 / 反转链表 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [234.palindrome-linked-list.py](./234.palindrome-linked-list.py) |
+| 0236 | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 中等 | 二叉树 / 后序遍历 / 递归 / 深度优先搜索 (DFS) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [236.lowest-common-ancestor-of-a-binary-tree.py](./236.lowest-common-ancestor-of-a-binary-tree.py) |
 
 ---
 
