@@ -4,10 +4,8 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-23%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
 [![Total](https://img.shields.io/badge/累计刷题-24%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
 [![Easy](https://img.shields.io/badge/🟢%20简单-6-2ecc71?style=flat-square)](https://leetcode.cn/)
-[![Medium](https://img.shields.io/badge/🟡%20中等-15-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Medium](https://img.shields.io/badge/🟡%20中等-16-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-2-e74c3c?style=flat-square)](https://leetcode.cn/)
 
@@ -18,10 +16,8 @@
 ```mermaid
 xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
-    x-axis ["08-25", "08-26", "08-27", "08-28", "08-31", "09-01", "09-02", "09-03", "09-06", "09-07", "09-08", "09-09", "09-10", "09-11", "09-12", "09-14"]
     x-axis ["08-25", "08-26", "08-27", "08-28", "08-31", "09-01", "09-02", "09-03", "09-06", "09-07", "09-08", "09-09", "09-10", "09-11", "09-12", "09-14", "09-15"]
     y-axis "累计题量 (题)" 0 --> 25
-    line [1, 2, 4, 5, 6, 8, 10, 13, 14, 16, 17, 18, 19, 20, 21, 23]
     line [1, 2, 4, 5, 6, 8, 10, 13, 14, 16, 17, 18, 19, 20, 21, 23, 24]
 ```
 
