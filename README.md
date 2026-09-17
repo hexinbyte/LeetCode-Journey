@@ -4,8 +4,8 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-26%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
-[![Easy](https://img.shields.io/badge/🟢%20简单-7-2ecc71?style=flat-square)](https://leetcode.cn/)
+[![Total](https://img.shields.io/badge/累计刷题-27%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
+[![Easy](https://img.shields.io/badge/🟢%20简单-8-2ecc71?style=flat-square)](https://leetcode.cn/)
 [![Medium](https://img.shields.io/badge/🟡%20中等-16-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-3-e74c3c?style=flat-square)](https://leetcode.cn/)
 
@@ -18,7 +18,7 @@ xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
     x-axis ["08-25", "08-26", "08-27", "08-28", "08-31", "09-01", "09-02", "09-03", "09-06", "09-07", "09-08", "09-09", "09-10", "09-11", "09-12", "09-14", "09-15", "09-16", "09-17"]
     y-axis "累计题量 (题)" 0 --> 30
-    line [1, 2, 4, 5, 6, 8, 10, 13, 14, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26]
+    line [1, 2, 4, 5, 6, 8, 10, 13, 14, 16, 17, 18, 19, 20, 21, 23, 24, 25, 27]
 ```
 
 ---
@@ -53,6 +53,7 @@ xychart-beta
 | 0226 | [翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) | 🟢 简单 | 二叉树 / 深度优先搜索 (DFS) / 广度优先搜索 (BFS) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [226.invert-binary-tree.py](./226.invert-binary-tree.py) |
 | 0234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | 🟢 简单 | 快慢指针 / 反转链表 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [234.palindrome-linked-list.py](./234.palindrome-linked-list.py) |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 中等 | 二叉树 / 后序遍历 / 递归 / 深度优先搜索 (DFS) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [236.lowest-common-ancestor-of-a-binary-tree.py](./236.lowest-common-ancestor-of-a-binary-tree.py) |
+| 0704 | [二分查找](https://leetcode.cn/problems/binary-search/) | 🟢 简单 | 二分查找 / 双指针 / 数组 | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | [704.binary-search.py](./704.binary-search.py) |
 
 ---
 
