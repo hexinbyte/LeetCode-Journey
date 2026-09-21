@@ -4,8 +4,8 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-30%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
-[![Easy](https://img.shields.io/badge/🟢%20简单-9-2ecc71?style=flat-square)](https://leetcode.cn/)
+[![Total](https://img.shields.io/badge/累计刷题-31%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
+[![Easy](https://img.shields.io/badge/🟢%20简单-10-2ecc71?style=flat-square)](https://leetcode.cn/)
 [![Medium](https://img.shields.io/badge/🟡%20中等-17-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-4-e74c3c?style=flat-square)](https://leetcode.cn/)
 
@@ -16,9 +16,9 @@
 ```mermaid
 xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
-    x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20"]
+    x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20", "09-22"]
     y-axis "累计题量 (题)" 0 --> 35
-    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30]
+    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 31]
 ```
 
 ---
@@ -48,6 +48,7 @@ xychart-beta
 | 0076 | [最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/) | 🔴 困难 | 滑动窗口 / 哈希表 / 双指针 / 字符串 | $\mathcal{O}(\vert s\vert + \vert t\vert)$ | $\mathcal{O}(\vert\Sigma\vert)$ | [76.minimum-window-substring.py](./76.minimum-window-substring.py) |
 | 0102 | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/) | 🟡 中等 | 二叉树 / 广度优先搜索 (BFS) / 队列 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [102.binary-tree-level-order-traversal.py](./102.binary-tree-level-order-traversal.py) |
 | 0104 | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | 🟢 简单 | 二叉树 / 深度优先搜索 (DFS) / 递归 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [104.maximum-depth-of-binary-tree.py](./104.maximum-depth-of-binary-tree.py) |
+| 0121 | [买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | 🟢 简单 | 一次遍历 / 贪心 / 动态规划 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [121.best-time-to-buy-and-sell-stock.py](./121.best-time-to-buy-and-sell-stock.py) |
 | 0124 | [二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) | 🔴 困难 | 树形 DP / 递归后序遍历 / 分治 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [124.binary-tree-maximum-path-sum.py](./124.binary-tree-maximum-path-sum.py) |
 | 0146 | [LRU 缓存](https://leetcode.cn/problems/lru-cache/) | 🟡 中等 | 设计 / 哈希表 / 双向链表 | $\mathcal{O}(1)$ | $\mathcal{O}(\text{capacity})$ | [146.lru-cache.py](./146.lru-cache.py) |
 | 0200 | [岛屿数量](https://leetcode.cn/problems/number-of-islands/) | 🟡 中等 | 深度优先搜索 (DFS) / 广度优先搜索 (BFS) / 并查集 | $\mathcal{O}(M \times N)$ | $\mathcal{O}(M \times N)$ | [200.number-of-islands.py](./200.number-of-islands.py) |
