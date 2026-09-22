@@ -4,9 +4,9 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-31%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
+[![Total](https://img.shields.io/badge/累计刷题-32%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
 [![Easy](https://img.shields.io/badge/🟢%20简单-10-2ecc71?style=flat-square)](https://leetcode.cn/)
-[![Medium](https://img.shields.io/badge/🟡%20中等-17-f39c12?style=flat-square)](https://leetcode.cn/)
+[![Medium](https://img.shields.io/badge/🟡%20中等-18-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-4-e74c3c?style=flat-square)](https://leetcode.cn/)
 
 ---
@@ -18,7 +18,7 @@ xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
     x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20", "09-22"]
     y-axis "累计题量 (题)" 0 --> 35
-    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 31]
+    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 32]
 ```
 
 ---
@@ -46,6 +46,7 @@ xychart-beta
 | 0053 | [最大子数组和](https://leetcode.cn/problems/maximum-subarray/) | 🟡 中等 | 动态规划 / 贪心 (Kadane) / 分治 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [53.maximum-subarray.py](./53.maximum-subarray.py) |
 | 0070 | [爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | 🟢 简单 | 动态规划 / 滚动数组 / 斐波那契 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [70.climbing-stairs.py](./70.climbing-stairs.py) |
 | 0076 | [最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/) | 🔴 困难 | 滑动窗口 / 哈希表 / 双指针 / 字符串 | $\mathcal{O}(\vert s\vert + \vert t\vert)$ | $\mathcal{O}(\vert\Sigma\vert)$ | [76.minimum-window-substring.py](./76.minimum-window-substring.py) |
+| 0092 | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/) | 🟡 中等 | 链表 / 双指针 / 哨兵节点 (Dummy) / 局部反转 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [92.reverse-linked-list-ii.py](./92.reverse-linked-list-ii.py) |
 | 0102 | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/) | 🟡 中等 | 二叉树 / 广度优先搜索 (BFS) / 队列 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [102.binary-tree-level-order-traversal.py](./102.binary-tree-level-order-traversal.py) |
 | 0104 | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | 🟢 简单 | 二叉树 / 深度优先搜索 (DFS) / 递归 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [104.maximum-depth-of-binary-tree.py](./104.maximum-depth-of-binary-tree.py) |
 | 0121 | [买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | 🟢 简单 | 一次遍历 / 贪心 / 动态规划 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [121.best-time-to-buy-and-sell-stock.py](./121.best-time-to-buy-and-sell-stock.py) |
