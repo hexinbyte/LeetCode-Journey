@@ -4,9 +4,9 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-32%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
+[![Total](https://img.shields.io/badge/累计刷题-33%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
 [![Easy](https://img.shields.io/badge/🟢%20简单-10-2ecc71?style=flat-square)](https://leetcode.cn/)
-[![Medium](https://img.shields.io/badge/🟡%20中等-18-f39c12?style=flat-square)](https://leetcode.cn/)
+[![Medium](https://img.shields.io/badge/🟡%20中等-19-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-4-e74c3c?style=flat-square)](https://leetcode.cn/)
 
 ---
@@ -16,9 +16,9 @@
 ```mermaid
 xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
-    x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20", "09-22"]
+    x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20", "09-22", "09-24"]
     y-axis "累计题量 (题)" 0 --> 35
-    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 32]
+    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 32, 33]
 ```
 
 ---
@@ -40,6 +40,7 @@ xychart-beta
 | 0021 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | 🟢 简单 | 双指针 / 链表 / 迭代 | $\mathcal{O}(m + n)$ | $\mathcal{O}(1)$ | [21.merge-two-sorted-lists.py](./21.merge-two-sorted-lists.py) |
 | 0022 | [括号生成](https://leetcode.cn/problems/generate-parentheses/) | 🟡 中等 | 回溯 (DFS) / 剪枝 / 动态规划 | $\mathcal{O}(\frac{4^n}{\sqrt{n}})$ | $\mathcal{O}(n)$ | [22.generate-parentheses.py](./22.generate-parentheses.py) |
 | 0033 | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | 🟡 中等 | 二分查找 / 数组 | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | [33.search-in-rotated-sorted-array.py](./33.search-in-rotated-sorted-array.py) |
+| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 中等 | 二分查找 / 寻找下界 | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | [34.find-first-and-last-position-of-element-in-sorted-array.py](./34.find-first-and-last-position-of-element-in-sorted-array.py) |
 | 0042 | [接雨水](https://leetcode.cn/problems/trapping-rain-water/) | 🔴 困难 | 单调栈 / 双向扫描 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [42.trapping-rain-water.py](./42.trapping-rain-water.py) |
 | 0046 | [全排列](https://leetcode.cn/problems/permutations/) | 🟡 中等 | 回溯 (DFS) / 集合差集 / 原地交换 | $\mathcal{O}(n \times n!)$ | $\mathcal{O}(n)$ | [46.permutations.py](./46.permutations.py) |
 | 0047 | [全排列 II](https://leetcode.cn/problems/permutations-ii/) | 🟡 中等 | 回溯 (DFS) / 排序剪枝 / 原地交换 | $\mathcal{O}(n \times n!)$ | $\mathcal{O}(n)$ | [47.permutations-ii.py](./47.permutations-ii.py) |
