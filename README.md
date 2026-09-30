@@ -4,9 +4,9 @@
 
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116.svg?logo=leetcode)](https://leetcode.cn/)
-[![Total](https://img.shields.io/badge/累计刷题-35%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
+[![Total](https://img.shields.io/badge/累计刷题-36%20题-brightgreen?style=flat-square&logo=leetcode)](https://leetcode.cn/)
 [![Easy](https://img.shields.io/badge/🟢%20简单-10-2ecc71?style=flat-square)](https://leetcode.cn/)
-[![Medium](https://img.shields.io/badge/🟡%20中等-21-f39c12?style=flat-square)](https://leetcode.cn/)
+[![Medium](https://img.shields.io/badge/🟡%20中等-22-f39c12?style=flat-square)](https://leetcode.cn/)
 [![Hard](https://img.shields.io/badge/🔴%20困难-4-e74c3c?style=flat-square)](https://leetcode.cn/)
 
 ---
@@ -16,9 +16,9 @@
 ```mermaid
 xychart-beta
     title "📈 LeetCode 累计刷题趋势图 (按日期)"
-    x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20", "09-22", "09-24", "09-25", "09-29"]
+    x-axis ["08-25", "08-28", "08-31", "09-03", "09-07", "09-10", "09-14", "09-17", "09-19", "09-20", "09-22", "09-24", "09-25", "09-29", "09-30"]
     y-axis "累计题量 (题)" 0 --> 40
-    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 32, 33, 34, 35]
+    line [1, 5, 6, 13, 16, 19, 23, 27, 29, 30, 32, 33, 34, 35, 36]
 ```
 
 ---
@@ -61,6 +61,7 @@ xychart-beta
 | 0234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | 🟢 简单 | 快慢指针 / 反转链表 / 双指针 | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | [234.palindrome-linked-list.py](./234.palindrome-linked-list.py) |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 中等 | 二叉树 / 后序遍历 / 递归 / 深度优先搜索 (DFS) | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [236.lowest-common-ancestor-of-a-binary-tree.py](./236.lowest-common-ancestor-of-a-binary-tree.py) |
 | 0300 | [最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/) | 🟡 中等 | 动态规划 / 记忆化搜索 | $\mathcal{O}(n^2)$ | $\mathcal{O}(n)$ | [300.longest-increasing-subsequence.py](./300.longest-increasing-subsequence.py) |
+| 0347 | [前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/) | 🟡 中等 | 桶排序 (Bucket Sort) / 哈希表 / 堆 | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | [347.top-k-frequent-elements.py](./347.top-k-frequent-elements.py) |
 | 0704 | [二分查找](https://leetcode.cn/problems/binary-search/) | 🟢 简单 | 二分查找 / 双指针 / 数组 | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | [704.binary-search.py](./704.binary-search.py) |
 
 ---
